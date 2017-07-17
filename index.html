@@ -1,0 +1,228 @@
+<html>
+<head>
+<title>Ryan Leys | Designer</title>
+<link id="pagestyle" rel="stylesheet" type="text/css" href="ryanleys.css">
+<script src="/ryanleys.js"></script>
+<script>
+
+function swapStyleSheet(sheet){
+	document.getElementById('pagestyle').setAttribute('href', sheet);
+	document.getElementById('confetti').style.display = "block";
+}
+
+var showStylesheet = function(){
+  swapStyleSheet('ryanleys.css')
+	document.getElementById("light").setAttribute( "onClick", "javascript: reverseStylesheet();" );
+  document.getElementById('confetti').style.display = "none";
+	document.getElementById("light").innerHTML = 'Is the site too dark for you?';
+}
+
+var reverseStylesheet = function(){
+	swapStyleSheet('ryanleys_light.css')
+	document.getElementById("light").setAttribute( "onClick", "javascript: showStylesheet();" );
+	document.getElementById("light").innerHTML = 'That was your own fault';
+}
+
+var showSnapchat = function(){
+	document.getElementById("hideallsnap").setAttribute( "onClick", "javascript: reverseSnapchat();" );
+	document.getElementById("snapchatdiv").style.animation= "fade 3s";
+	document.getElementById("snapchatdiv").style.display= "block";
+	document.getElementById("snapchatdiv").style.visibility= "visible";
+	document.getElementById("snapchatdiv").style.opacity= "1";
+	document.getElementById('moresnapbutton').style.display = "none";
+	document.getElementById('hideallsnap').style.display = "block";
+}
+
+var reverseSnapchat = function(){
+	document.getElementById("moresnapbutton").setAttribute( "onClick", "javascript: showSnapchat();" );
+	document.getElementById('snapchatdiv').style.display = "none";
+	document.getElementById('moresnapbutton').style.display = "block";
+	document.getElementById('hideallsnap').style.display = "none";
+
+}
+
+var showMoreDeveloper = function(){
+	document.getElementById("hidemoredeveloper").setAttribute( "onClick", "javascript: reverseMoreDeveloper();" );
+	document.getElementById("moredeveloper").style.animation= "fade 3s";
+	document.getElementById("moredeveloper").style.display= "block";
+	document.getElementById("moredeveloper").style.visibility= "visible";
+	document.getElementById("moredeveloper").style.opacity= "1";
+	document.getElementById('moredeveloperbutton').style.display = "none";
+	document.getElementById('hidemoredeveloper').style.display = "block";
+}
+
+var reverseMoreDeveloper = function(){
+	document.getElementById("moredeveloperbutton").setAttribute( "onClick", "javascript: showMoreDeveloper();" );
+	document.getElementById('moredeveloper').style.display = "none";
+	document.getElementById('moredeveloperbutton').style.display = "block";
+	document.getElementById('hidemoredeveloper').style.display = "none";
+
+}
+
+$(document).ready(function () {
+    $(".snapchatdiv, .moredeveloper").toggle();
+    $("#arrow").click(function () {
+        $(".snapchatdiv, .moredeveloper").toggle('slow');
+    });
+});
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-575FGMM');</script>
+<!-- End Google Tag Manager -->
+</head>
+<body>
+<div id="confetti"  style="display:none;" class="answer_list" >
+<marquee behavior=scroll direction=down scrollamount=3 scrolldelay=19 height=696 style='position:absolute; left:84%; top:58px; width:30; height:696px;'><img src=http://dl4.glitter-graphics.net/pub/121/121154vmqwujj6i0.gif border=0></marquee>
+<marquee behavior=scroll direction=down scrollamount=2 scrolldelay=6 height=692 style='position:absolute; left:83%; top:79px; width:30; height:692px;'><img src=http://dl4.glitter-graphics.net/pub/121/121154vmqwujj6i0.gif border=0></marquee>
+<marquee behavior=scroll direction=down scrollamount=3 scrolldelay=20 height=510 style='position:absolute; left:85%; top:100px; width:30; height:510px;'><img src=http://dl4.glitter-graphics.net/pub/121/121154vmqwujj6i0.gif border=0></marquee>
+<marquee behavior=scroll direction=down scrollamount=1 scrolldelay=48 height=612 style='position:absolute; left:55%; top:197px; width:30; height:612px;'><img src=http://dl4.glitter-graphics.net/pub/121/121154vmqwujj6i0.gif border=0></marquee>
+<marquee behavior=scroll direction=down scrollamount=5 scrolldelay=6 height=571 style='position:absolute; left:65%; top:157px; width:30; height:571px;'><img src=http://dl4.glitter-graphics.net/pub/121/121154vmqwujj6i0.gif border=0></marquee>
+<marquee behavior=scroll direction=down scrollamount=4 scrolldelay=7 height=631 style='position:absolute; left:59%; top:102px; width:30; height:631px;'><img src=http://dl4.glitter-graphics.net/pub/121/121154vmqwujj6i0.gif border=0></marquee>
+<marquee behavior=scroll direction=down scrollamount=2 scrolldelay=34 height=694 style='position:absolute; left:64%; top:20px; width:30; height:694px;'><img src=http://dl4.glitter-graphics.net/pub/121/121154vmqwujj6i0.gif border=0></marquee>
+<marquee behavior=scroll direction=down scrollamount=3 scrolldelay=25 height=514 style='position:absolute; left:9%; top:50px; width:30; height:514px;'><img src=http://dl4.glitter-graphics.net/pub/121/121154vmqwujj6i0.gif border=0></marquee>
+<marquee behavior=scroll direction=down scrollamount=5 scrolldelay=5 height=700 style='position:absolute; left:91%; top:70px; width:30; height:700px;'><img src=http://dl4.glitter-graphics.net/pub/121/121154vmqwujj6i0.gif border=0></marquee>
+<marquee behavior=scroll direction=down scrollamount=2 scrolldelay=38 height=598 style='position:absolute; left:43%; top:185px; width:30; height:598px;'><img src=http://dl4.glitter-graphics.net/pub/121/121154vmqwujj6i0.gif border=0></marquee>
+<marquee behavior=scroll direction=down scrollamount=2 scrolldelay=11 height=569 style='position:absolute; left:17%; top:160px; width:30; height:569px;'><img src=http://dl4.glitter-graphics.net/pub/121/121154vmqwujj6i0.gif border=0></marquee>
+<marquee behavior=scroll direction=down scrollamount=3 scrolldelay=46 height=699 style='position:absolute; left:17%; top:15px; width:30; height:699px;'><img src=http://dl4.glitter-graphics.net/pub/121/121154vmqwujj6i0.gif border=0></marquee>
+<marquee behavior=scroll direction=down scrollamount=5 scrolldelay=22 height=575 style='position:absolute; left:59%; top:166px; width:30; height:575px;'><img src=http://dl4.glitter-graphics.net/pub/121/121154vmqwujj6i0.gif border=0></marquee>
+<marquee behavior=scroll direction=down scrollamount=5 scrolldelay=24 height=547 style='position:absolute; left:56%; top:155px; width:30; height:547px;'><img src=http://dl4.glitter-graphics.net/pub/121/121154vmqwujj6i0.gif border=0></marquee>
+<marquee behavior=scroll direction=down scrollamount=2 scrolldelay=6 height=511 style='position:absolute; left:32%; top:120px; width:30; height:511px;'><img src=http://dl4.glitter-graphics.net/pub/121/121154vmqwujj6i0.gif border=0></marquee>
+<marquee behavior=scroll direction=down scrollamount=5 scrolldelay=12 height=510 style='position:absolute; left:92%; top:164px; width:30; height:510px;'><img src=http://dl4.glitter-graphics.net/pub/121/121154vmqwujj6i0.gif border=0></marquee>
+<marquee behavior=scroll direction=down scrollamount=2 scrolldelay=22 height=610 style='position:absolute; left:52%; top:89px; width:30; height:610px;'><img src=http://dl4.glitter-graphics.net/pub/121/121154vmqwujj6i0.gif border=0></marquee>
+<marquee behavior=scroll direction=down scrollamount=4 scrolldelay=15 height=688 style='position:absolute; left:87%; top:43px; width:30; height:688px;'><img src=http://dl4.glitter-graphics.net/pub/121/121154vmqwujj6i0.gif border=0></marquee>
+<marquee behavior=scroll direction=down scrollamount=5 scrolldelay=46 height=568 style='position:absolute; left:92%; top:64px; width:30; height:568px;'><img src=http://dl4.glitter-graphics.net/pub/121/121154vmqwujj6i0.gif border=0></marquee>
+<marquee behavior=scroll direction=down scrollamount=6 scrolldelay=43 height=614 style='position:absolute; left:74%; top:36px; width:30; height:614px;'><img src=http://dl4.glitter-graphics.net/pub/121/121154vmqwujj6i0.gif border=0></marquee>
+<marquee behavior=scroll direction=down scrollamount=5 scrolldelay=6 height=658 style='position:absolute; left:48%; top:34px; width:55; height:658px;'><img src=http://dl7.glitter-graphics.net/pub/24/24507u1mv90bi7p.gif border=0></marquee>
+<marquee behavior=scroll direction=down scrollamount=2 scrolldelay=35 height=687 style='position:absolute; left:11%; top:198px; width:55; height:687px;'><img src=http://dl7.glitter-graphics.net/pub/24/24507u1mv90bi7p.gif border=0></marquee>
+<marquee behavior=scroll direction=down scrollamount=4 scrolldelay=36 height=534 style='position:absolute; left:85%; top:84px; width:55; height:534px;'><img src=http://dl7.glitter-graphics.net/pub/24/24507u1mv90bi7p.gif border=0></marquee>
+<marquee behavior=scroll direction=down scrollamount=1 scrolldelay=30 height=640 style='position:absolute; left:34%; top:45px; width:55; height:640px;'><img src=http://dl7.glitter-graphics.net/pub/24/24507u1mv90bi7p.gif border=0></marquee>
+<marquee behavior=scroll direction=down scrollamount=3 scrolldelay=15 height=518 style='position:absolute; left:43%; top:149px; width:55; height:518px;'><img src=http://dl7.glitter-graphics.net/pub/24/24507u1mv90bi7p.gif border=0></marquee>
+<marquee behavior=scroll direction=down scrollamount=2 scrolldelay=33 height=541 style='position:absolute; left:93%; top:133px; width:55; height:541px;'><img src=http://dl7.glitter-graphics.net/pub/24/24507u1mv90bi7p.gif border=0></marquee>
+<marquee behavior=scroll direction=down scrollamount=5 scrolldelay=7 height=691 style='position:absolute; left:81%; top:156px; width:55; height:691px;'><img src=http://dl7.glitter-graphics.net/pub/24/24507u1mv90bi7p.gif border=0></marquee>
+<marquee behavior=scroll direction=down scrollamount=6 scrolldelay=37 height=677 style='position:absolute; left:59%; top:148px; width:55; height:677px;'><img src=http://dl7.glitter-graphics.net/pub/24/24507u1mv90bi7p.gif border=0></marquee>
+<marquee behavior=scroll direction=down scrollamount=5 scrolldelay=12 height=623 style='position:absolute; left:95%; top:200px; width:55; height:623px;'><img src=http://dl7.glitter-graphics.net/pub/24/24507u1mv90bi7p.gif border=0></marquee>
+</div>
+  <div id="SocialIcons" align="right">
+    <table class="Social">
+      <tr>
+        <td><a href="http://www.twitter.com/heyryanleys"><img src="socialicons/twitter.png" alt="Twitter" width="30px"/></a></td>
+        <td><a href="http://www.github.com/heyryanleys"><img src="socialicons/github.png" alt="Github" width="30px"/></a></td>
+				<td style="padding-left: 2px"><a href="http://www.linkedin.com/in/ryanleys/"><img src="socialicons/linkedin.png" alt="LinkedIn" width="30px"/></a></td>
+      </tr>
+    </table>
+  </div>
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-575FGMM"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+  <link href="http://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+	<div id="Top Section">
+	<button class="button" id="light" onclick="swapStyleSheet('ryanleys_light.css'), reverseStylesheet()">Is this site too dark for you?</button>
+  <h1>I'm looking for a
+    <span
+       class="txt-rotate"
+       data-period="2000"
+       data-rotate='[ "designer.", "subpar developer.", "digital marketer.", "date?"]'></span>
+  </h1>
+  <h2>A quick highlight reel :</h2>
+  <p><b>// HTML //</b></p>
+  <p><a href="http://toolbox.igus.com">igus Toolbox (with Uberflip)</font></a></p>
+  <p><a href="http://nusc.ryanleys.com">A site for my college swim team (Most code was written after a few beers, so don't judge)</font></a></p>
+  <p><b>// Graphic Design //</b></p>
+  <p><b>// Video Production //</b></p>
+  <p><a href="https://www.youtube.com/watch?v=bkPNIzDKVns">Roommate Wanted</font></a> // Directed, Shot, Edited, Produced || <i>Runner Up 2016 Northeastern Campus Movie Festival</i></font>
+  <p><a href="https://vimeo.com/132346077">Digital Romance</font></a> // Directed, Shot, Edited, Produced || <i>Made in After Effects for a college course</i></font>
+		<br />
+		<br />
+	</div>
+	<div id="MiddleSection">
+		<div id="Straighten">
+			<br />
+			<h3>Graphic Design Examples </h3>
+			<p class="text"> Before learning about graphic design in academic and professional settings, Ryan's graphic design consited of using Photoshop and Illustrator to make photos embarassing his friends. His style has grown to be polished and professional while never taking itself too seriously.</p>
+			<table style="width:84%" class="lightcss">
+				<tr>
+					<td width="50%"><img src="images/automatebanner.png" style="width: 600px"</td>
+					<td width="50%"> Print Advertsiement: 28ft x 7.5ft</td>
+				</tr>
+			</table>
+			<table style="width:84%" class="lightcss">
+				<tr>
+					<td width="50%">Facebook: Retargeted ad campaign</td>
+					<td width="50%"><img src="images/fbretarget.png" style="width: 600px" /></td>
+				</tr>
+			</table>
+			<div class="downarrow" id="moresnapbutton" onclick="showSnapchat()">
+				<table class="downarrowtable">
+					<tr>
+						<td><img src="images/darrow.png" class="arrow"></td>
+						<td valign="center">Show More</td>
+					</tr>
+				</table>
+			</div>
+			<div id="snapchatdiv">
+			<table style="width:84%" class="lightcss">
+				<tr>
+					<td width="15%"><img src="images/goingaway.png" style="width: 150px" /></td>
+					<td width="15%"><img src="images/luau.png" style="width: 150px" /></td>
+					<td width="15%"><img src="images/wedding.jpg" style="width: 150px" /></td>
+					<td width="15%"><img src="images/missionhill.png" style="width: 150px" /></td>
+					<td width="40%">Snapchat: Temporary and Permanent Filters</td>
+				</tr>
+			</table>
+		</div>
+		<center><img src="images/uarrow.png" class="bottomarrow" id="hideallsnap" onclick="reverseSnapchat()"></center>
+		</div>
+	</div>
+	<div id="BottomSection">
+		<div id="StraightenRight">
+			<br />
+			<h3> Developer Examples </h3>
+			<p class="text"> Ryan's creativity comes in handy most when he is coding a new project. With limited formal education in coding, the majority of his work is built by combining what he knows in new and creative ways to build something that looks designed by an expert. He is a firm believer that function comes before deisgn and that great webites come from great ideas not just impressive coding.</p>
+			<table style="width:84%" class="lightcss">
+				<tr>
+					<td width="33%"><img src="images/swimsite.png" style="width: 250px" /></td>
+					<td width="33%"><img src="images/tb.png" style="width: 250px" /></td>
+					<td width="33%"><img src="images/fridge.jpeg" style="width: 270px" /></td>
+				</tr>
+				<tr>
+					<td width="33%"><a href="http://nusc.ryanleys.com">NU Swim Club Website</a></td>
+					<td width="33%"><a href="http://toolbox.igus.com">igus Engineer's Toolbox</td>
+					<td width="33%"><a href="https://github.com/heyryanleys/IICTM.FO-iPhone-Swift-3-">Is it colder than your fridge outside?</a></td>
+				<tr>
+					<td width="33%">A website I built with my college roommate for our swim team. A lot of what I know of web development I learned making this site, and I would guess the code can reflect that it was a learning experience.  This site is retired and the code hasn't been touched since 2015</td>
+					<td width="33%">Based off the <a href="http://www.uberflip.com">uberflip</a> platform, I designed this site with our company brand in mind. I designed and coded the header navigation, binder tabs, and a lot of backend code to make sure it works on all devices.</td>
+					<td width="33%">I had always wanted to code an iphone app, and one summer I had the idea of an app that you could check and it would tell you if it was colder or warmer than your fridge outside. I spent a week learning Swift and was able to build a working prototype (But did not spend the $100 to get it on the App store so it only lives on <a href="https://github.com/heyryanleys/IICTM.FO-iPhone-Swift-3-">GitHub</a> and my phone as of now).</td>
+				</tr>
+			</table>
+			<div class="downarrow" id="moredeveloperbutton" onclick="showMoreDeveloper()">
+				<table class="downarrowtable">
+					<tr>
+						<td><img src="images/darrow.png" class="arrow"></td>
+						<td valign="center">Show More</td>
+					</tr>
+				</table>
+			</div>
+			<div id="moredeveloper">
+			<table style="width:40%" class="lightcss">
+				<tr>
+					<td><img src="images/davidbowie.png" width="600px"/></td>
+				</tr>
+				<tr>
+					<td><a href="http://heyryanleys.github.io">David Bowie & Michael Jackson Infographic</a></td>
+				</tr>
+				<tr>
+					<td>An interactive infographic created using Javascript and data pulled from Google that shows the search volumes for David Bowie compared to Michael Jackson at the time of their deaths.</td>
+				</tr>
+			</table>
+		</div>
+		<center><img src="images/uarrow.png" class="bottomarrow" id="hidemoredeveloper" onclick="reverseMoreDeveloper()"></center>
+			</div>
+		</div>
+
+</body>
+</html>
